@@ -1,0 +1,22 @@
+{
+    "timeAgo": {
+        "just-now": "now",
+        "ago": "{0} past",
+        "in": "{0} from now",
+        "last-month": "last month",
+        "next-month": "next month",
+        "month": "month",
+        "last-year": "last year",
+        "next-year": "next year",
+        "year": "year",
+        "yesterday": "yesterday",
+        "tomorrow": "tomorrow",
+        "day": "day",
+        "last-week": "last week",
+        "next-week": "next week",
+        "week": "week",
+        "hour": "hour",
+        "minute": "minute",
+        "second": "second"
+    }
+}

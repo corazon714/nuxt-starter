@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <div>
-    <UBadge size="lg">Index Page</UBadge>
+  <div class="flex flex-col">
+    <UBadge size="lg" class="w-fit">Index Page</UBadge>
+    <span>You visited here {{ useLocaleTimeAgo(new Date()).value }}</span>
   </div>
 </template>
