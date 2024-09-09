@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-roboto">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -17,5 +17,9 @@ Body {
 
 .dark Body {
   @apply bg-black
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 </style>
