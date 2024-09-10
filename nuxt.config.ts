@@ -9,6 +9,7 @@ export default defineNuxtConfig({
 		"@nuxtjs/google-fonts",
 		"@pinia/nuxt",
 		"pinia-plugin-persistedstate/nuxt",
+		"@nuxt/image",
 	],
 	ssr: true,
 	runtimeConfig: {
