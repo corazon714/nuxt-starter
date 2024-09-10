@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
 	devtools: { enabled: true },
-	modules: ["@nuxt/ui", "@vueuse/nuxt", "@nuxtjs/i18n", "@nuxtjs/google-fonts"],
+	modules: [
+		"@nuxt/ui",
+		"@vueuse/nuxt",
+		"@nuxtjs/i18n",
+		"@nuxtjs/google-fonts",
+		"@pinia/nuxt",
+		"pinia-plugin-persistedstate/nuxt",
+	],
 	ssr: true,
 	ui: {
 		global: true,
@@ -19,5 +26,8 @@ export default defineNuxtConfig({
 			Roboto: [100, 300, 400, 500, 700, 900],
 		},
 		prefetch: true,
+	},
+	pinia: {
+		storesDirs: ["./stores/**", "./custom-folder/stores/**"],
 	},
 });
