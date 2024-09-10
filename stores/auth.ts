@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-export const authStore = defineStore({
+export const useAuthStore = defineStore({
 	id: "authStore",
 	state: () => ({
 		jwt: "",

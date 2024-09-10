@@ -11,6 +11,12 @@ export default defineNuxtConfig({
 		"pinia-plugin-persistedstate/nuxt",
 	],
 	ssr: true,
+	runtimeConfig: {
+		public: {
+			dev: true,
+			trpcUrl: "https://api.example.com",
+		},
+	},
 	ui: {
 		global: true,
 	},
